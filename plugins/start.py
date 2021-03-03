@@ -11,4 +11,4 @@ async def start(client, message):
     ])
     welcomed = f"Hey <b>{message.from_user.first_name}</b>\n**I'm A POWERFULL YOUTUBE DOWNLOADER Bot💯\nPlease send me any YOUTUBE link,\nClick /help for more detailS..\nYou must subscribe our channel in order to use me😇**"
     await message.reply_text(welcomed, reply_markup=joinButton)
-    raise StopPropagation
+    raise StopPropagatio
